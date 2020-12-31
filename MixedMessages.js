@@ -13,8 +13,8 @@ let r2 = Math.floor(Math.random()*4);
 let r3 = Math.floor(Math.random()*29);
 let r4 = Math.floor(Math.random()*10);
 let r5 = Math.round(Math.random()*3);
-let r6 = Math.round(Math.random()*4);
+let r6 = Math.round(Math.random()*2);
 
 console.log('Thank you for executing me... this is no coincidence, you probably want to know a secret.');
 console.log(`Your true love is out there, I can't give you there name or where abouts, but I can say this...`);
-console.log(`They are of ${starSigns[r1]} star sign, born on day ${r3} of ${seasons[seasonsKeys[r6]][r5]}. Look for the number ${numbers[r4]} wherever you go, that will lead you to them!`);
+console.log(`They are of ${starSigns[r1]} star sign, born on day ${r3} of ${seasons[seasonsKeys[r5]][r6]} during ${seasonsKeys[r5]}. Look for the number ${numbers[r4]} wherever you go, that will lead you to them!`);
